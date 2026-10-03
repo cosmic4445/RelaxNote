@@ -6,7 +6,7 @@ Sign-in, email verification and password reset are handled by Firebase Authentic
 
 1. Go to https://console.firebase.google.com and create a project (you can turn Google Analytics off).
 2. Open Project settings (the gear icon), then General. Under Your apps, add a Web app (the `</>` icon) and name it RelaxNote. Copy the four values it shows: `apiKey`, `authDomain`, `projectId` and `appId`.
-3. In this folder, copy `firebase-config.example.json` to `firebase-config.json` and paste those four values in. (These values identify your project and are not secret.)
+3. In this folder, put the `apiKey`, `authDomain`, `projectId`, and `appId` into each area in `firebase-config.json` (These values identify your project and are not secret.)
 4. In the Firebase console open Build, then Authentication, then Get started. Under Sign-in method turn on Email/Password. Optionally turn on Google as well.
 5. Under Authentication, then Templates, you can change the wording and sender name of the verification and password reset emails.
 6. When you put the site online, add your domain under Authentication, then Settings, then Authorized domains. `localhost` is already there.
