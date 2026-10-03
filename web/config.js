@@ -1,1 +1,0 @@
-window.RN_API = "";
