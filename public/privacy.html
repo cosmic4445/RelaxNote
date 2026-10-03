@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="default">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy - RelaxNote</title>
+<style>
+:root,:root[data-theme="default"]{--bg:#0F0F0F;--panel:#433E3F;--text:#EEEAF8;--muted:#a79fa3;--accent:#BEB8EB;--line:#2a2627}
+:root[data-theme="black"]{--bg:#2C302E;--panel:#383d3a;--text:#F7F4EA;--muted:#9D8189;--accent:#668F80;--line:#3d4340}
+:root[data-theme="white"]{--bg:#E9F1F7;--panel:#f7fafc;--text:#040303;--muted:#6A7B76;--accent:#c4604a;--line:#c9d6df}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Outfit","Segoe UI",system-ui,sans-serif;line-height:1.65;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+main{max-width:720px;margin:0 auto;padding:32px 22px 60px}
+a{color:var(--accent)}
+.back{display:inline-block;margin-bottom:22px;text-decoration:none}
+h1{font-size:34px;margin:0 0 6px;font-weight:600}
+h2{font-size:20px;margin:30px 0 8px;font-weight:600}
+p,li{color:var(--text)}
+li{margin:4px 0}
+.meta{color:var(--muted);margin:0 0 24px}
+.note{background:var(--panel);border-radius:14px;padding:14px 16px;margin:0 0 24px;color:var(--text)}
+</style>
+</head>
+<body>
+<main>
+<a class="back" href="/">Back to RelaxNote</a>
+<h1>Privacy Policy</h1>
+<p class="meta">Effective date: [date]</p>
+<div class="note">Replace the items in [square brackets] (your name or business, contact email, country) before you publish this page.</div>
+<p>This policy explains what information RelaxNote collects, how it is used, and the choices you have. RelaxNote is run by [your name or business] ("we", "us"). Contact: [contact email].</p>
+
+<h2>1. What we collect</h2>
+<p><b>When you create an account:</b> your name and your email address. Signing in is handled by Google Firebase Authentication, which keeps your email, a scrambled version of your password (we never see or store your password) or the link to your Google account, and sign-in details such as dates and IP addresses, under Google's own privacy policy. Our own server stores only your name, your email address, and an account ID.</p>
+<p><b>When you submit a song:</b> the audio file, the optional cover image, the title, the genre, your display name, and the review result (pending, approved, or rejected, with a short reason if we give one).</p>
+<p><b>Stored on your own device, not on our server:</b> your theme choice, favorites, playlists, and the sign-in session that Firebase keeps so you stay signed in. These are kept in your browser's local storage (or the desktop app's storage). Songs you add from your own computer in "My music" are played on your device and are never uploaded.</p>
+<p><b>Technical data:</b> our server does not store your IP address. Google Firebase may log IP addresses and device details when you sign in, to keep accounts secure.</p>
+
+<h2>2. What we do not do</h2>
+<ul>
+<li>We do not use advertising or tracking cookies, and we do not run analytics services.</li>
+<li>We do not sell your information.</li>
+<li>We do not share your information with other companies for their marketing.</li>
+</ul>
+
+<h2>3. How we use your information</h2>
+<ul>
+<li>To create and protect your account and keep you signed in.</li>
+<li>To review submitted songs and play approved songs in the catalog.</li>
+<li>To show your display name next to a song you submitted and that we approved.</li>
+<li>To keep RelaxNote secure and to respond to emails you send us.</li>
+</ul>
+
+<h2>4. What other people can see</h2>
+<p>Your email address and password are never shown to other users. If a song you submitted is approved, other people can hear it, see its cover art and see your display name. Songs that are pending or rejected are visible only to you and to us.</p>
+
+<h2>5. Links to other sites</h2>
+<p>Credits on the now-playing screen can link to the sites where free songs come from. Those sites have their own privacy policies.</p>
+
+<h2>6. How long we keep it</h2>
+<p>We keep your account and submissions until you ask us to delete them or we close the account. Rejected songs may be deleted at any time. If you want your account or songs deleted, email [contact email]. We will delete them within a reasonable time, normally within 30 days. Backups may keep copies for a short extra period.</p>
+
+<h2>7. Your choices and rights</h2>
+<p>You can ask us for a copy of the information we hold about you, ask us to correct it, or ask us to delete it. Depending on where you live, the law may give you more rights, such as objecting to certain uses. Email [contact email] and we will respond. You can also clear your device storage at any time, which removes your favorites, playlists and sign-in token from that device.</p>
+
+<h2>8. Security</h2>
+<p>We protect your information with Google Firebase Authentication for passwords and sign-in (including limits on repeated attempts), email verification before songs can be submitted, and access checks on private files. No system is perfectly secure, so please choose a strong, unique password. If we learn of a data breach that affects you, we will tell you as the law requires.</p>
+
+<h2>9. Children</h2>
+<p>RelaxNote is not meant for children under 13, and we do not knowingly collect their information. If you think a child has given us information, email [contact email] and we will delete it.</p>
+
+<h2>10. Where data is stored</h2>
+<p>Account and submission data is stored on the server where RelaxNote is hosted, which is in [country or hosting provider]. If you use the desktop app on its own, that data stays on your computer. Sign-in information is always handled by Google Firebase Authentication and may be stored and processed on Google's servers in other countries.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>We may update this policy. The effective date above shows the latest version, and we will give notice on the site for important changes.</p>
+</main>
+<script>
+try{var t=localStorage.getItem("rn_theme");if(t)document.documentElement.setAttribute("data-theme",JSON.parse(t))}catch(e){}
+</script>
+</body>
+</html>

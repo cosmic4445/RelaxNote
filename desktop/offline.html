@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'">
+<title>RelaxNote</title>
+<style>
+body{margin:0;background:#0F0F0F;color:#EEEAF8;font-family:"Outfit","Segoe UI",system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;padding:24px;text-align:center}
+div{max-width:460px}
+h1{font-size:26px;margin:0 0 10px;font-weight:600}
+p{color:#a79fa3;line-height:1.6;margin:0 0 10px}
+code{background:#1b1919;padding:2px 8px;border-radius:8px;color:#BEB8EB}
+</style>
+</head>
+<body>
+<div>
+<h1>Can't reach the server</h1>
+<p>RelaxNote could not open <code id="u"></code>.</p>
+<p>Make sure the server is running (for example with <code>npm start</code>), then choose File, Connect to a server to try again, or leave the address empty to use the built-in server.</p>
+</div>
+<script>
+document.getElementById("u").textContent=new URLSearchParams(location.search).get("url")||"the server";
+</script>
+</body>
+</html>

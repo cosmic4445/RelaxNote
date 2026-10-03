@@ -1,0 +1,38 @@
+[
+  {
+    "file": "megasong.mp3",
+    "title": "Megasong",
+    "artist": "Emma_MA",
+    "genre": "metal",
+    "credit": "Music by Emma_MA",
+    "license": "CC0",
+    "link": "https://opengameart.org/content/megasong"
+  },
+  {
+    "file": "untitled_metal_track.mp3",
+    "title": "Untitled Metal Track",
+    "artist": "Kistol",
+    "genre": "metal",
+    "credit": "Music by Kistol",
+    "license": "CC0",
+    "link": "https://opengameart.org/content/untitled-metal-track"
+  },
+  {
+    "file": "rock4.mp3",
+    "title": "Electric Rock",
+    "artist": "Alex McCulloch (Pro Sensory)",
+    "genre": "rock",
+    "credit": "Music by Alex McCulloch (Pro Sensory)",
+    "license": "CC0",
+    "link": "https://opengameart.org/content/electric-rock"
+  },
+  {
+    "file": "quickietrix.mp3",
+    "title": "Quickie Trix",
+    "artist": "iamoneabe",
+    "genre": "lofi",
+    "credit": "Music by iamoneabe",
+    "license": "CC0",
+    "link": "https://opengameart.org/content/quickie-trix"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "apiKey": "paste-your-apiKey-here",
+  "authDomain": "your-project-id.firebaseapp.com",
+  "projectId": "your-project-id",
+  "appId": "paste-your-appId-here"
+}

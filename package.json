@@ -1,0 +1,45 @@
+{
+  "name": "relaxnote",
+  "version": "1.0.0",
+  "private": true,
+  "main": "desktop/main.js",
+  "scripts": {
+    "start": "node server.js",
+    "desktop": "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "jose": "^6.2.12",
+    "multer": "^2.4.0"
+  },
+  "description": "RelaxNote music player",
+  "author": "RelaxNote",
+  "devDependencies": {
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.relaxnote.app",
+    "productName": "RelaxNote",
+    "files": [
+      "desktop/**",
+      "server.js",
+      "public/**",
+      "songs/catalog.json",
+      "firebase-config.json",
+      "build/icon.png",
+      "package.json"
+    ],
+    "icon": "build/icon.png",
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
