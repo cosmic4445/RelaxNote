@@ -19,7 +19,7 @@ Sign-in, email verification and password reset are handled by Firebase Authentic
 4. Open http://localhost:3000
 5. Click Sign in, then Sign up. Firebase emails you a verification link; open it, then press "I have verified" in the banner.
 
-The admin is cuberalted@gmail.com. Only that account, with its email verified, sees the Review queue and can approve or reject songs. Signing in with Google using that Gmail address also counts as verified. Everyone else can only submit songs, and only after verifying their email. Because verification is required, nobody else can take over the admin email.
+The admin is the only account with powers to review, and accept/deny songs, with its email verified, sees the Review queue and can approve or reject songs. Signing in with Google using that Gmail address also counts as verified. Everyone else can only submit songs, and only after verifying their email. Because verification is required, nobody else can take over the admin email.
 
 To change the admin email, edit the `ADMIN_EMAIL` line near the top of `server.js` and restart.
 
